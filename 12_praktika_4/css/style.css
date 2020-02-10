@@ -1,0 +1,105 @@
+@import url(reset.css);
+
+@font-face {
+	src: url(../fonts/Helvetica.ttc);
+	font-family: 'Helvetica'
+	font-weight: normal;
+}
+
+.header-container {
+	height: 200px;
+	background-color: #E5E000;
+}
+
+.header-container__name {
+	height: 40px;
+	width: 470px;
+	margin-left: 80px;
+}
+
+.header-container__name h1 {
+	line-height: 200px;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+}	
+
+.maincontent-container__slider {
+	height: 1080px;
+	background-image: url(../img/slider.png);
+	background-repeat: no-repeat;
+}
+
+.maincontent-container__menu {
+	height: 100px;
+	background-color: #E5E000;
+}
+
+.maincontent-container__menu__items {
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	align-items: center;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 80px;
+}
+
+.maincontent-container__menu a {
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 29px;
+	align-items: center;
+	text-transform: uppercase;
+	text-decoration-line: none;
+	color: white;
+	line-height: 100px;
+}
+
+.maincontent-container__text {
+	margin-top: 110px;
+	margin-bottom: 110px;
+	margin-left: 80px;
+}
+
+.maincontent-container__text p {
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 57px;
+	color: black;
+}
+
+.footer-container {
+	height: 200px;
+	background-color: #E5E000;
+}
+
+.footer-container__logo {
+	height: 46px;
+	width: 205px;
+	margin-left: 80px;
+	margin-top: 77px;
+	display: inline-block;
+}
+
+.footer-container__heading {
+	height: 64px;
+	width: 614px;
+	line-height: 57px;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+	float: right;
+	margin-right: 80px;
+	margin-top: 68px;
+}
