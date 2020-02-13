@@ -1,0 +1,86 @@
+@import url(reset.css);
+
+@font-face {
+	src: url(../fonts/Helvetica.ttc);
+	font-family: 'Helvetica';
+	font-weight: normal;
+}
+
+@font-face {
+	src: url(../fonts/Times New Roman.ttf);
+	font-family: 'TimesNewRoman';
+	font-weight: normal;
+}
+
+.header-container {
+	height: 60px;
+	background-color: #FE1A19;
+	position: relative;
+	display: flex;
+}
+
+.mainheading {
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.header-container h1 {
+	color: #FFFFFF;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.footer-container {
+	height: 60px;
+	background-color: #FE1A19;
+	position: relative;
+	display: flex;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-family: 'Helvetica';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	display: flex;
+	align-items: center;
+	margin-left: 20px;
+}
+
+.main-container {
+	margin-left: 20px;
+}
+
+.card {
+	display: inline-block;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	position: relative;
+	width: 400px;
+	margin-top: 52px;
+	margin-bottom: 52px;
+	margin-left: 50px;
+}
+
+.card-item_heading {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	margin-left: 33px;
+	margin-top: 33px;
+}
+
+.card-item_text {
+	margin-top: 41px;
+	margin-left: 33px;
+	margin-bottom: 33px;
+}

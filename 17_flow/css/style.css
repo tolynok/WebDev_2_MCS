@@ -1,0 +1,11 @@
+@import url(reset.css);
+
+img {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
