@@ -6,17 +6,58 @@
 	font-weight: normal;
 }
 
-.header-container {
-	height: 140px;
+.header {
 	position: fixed;
-	top: 0;
+}
+
+.header-container {
+	position: relative;
+	z-index: 10;
+	height: 140px;
+	position: relative;
 	background-color: white;
 }
 
 .logo {
+	position: relative;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	color: #E50043;
+	height: 40px;
+	width: 120px;
+	margin: 50px;
 	display: inline-block;
 }
 
-.menu-container {
+.menu {
+	padding-right: 25px;
+}
+
+.menu a {
+	height: 40px;
+	width: 130px;
+	font-family: 'Arial';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	align-items: center;
+	position: relative;
+	margin-right: 25px;
+	margin-top: 50px;
+	text-decoration: none;
 	display: inline-block;
+}
+
+.main {
+	position: relative;
+}
+
+.main-container {
+	position: relative;
+	top: 140px;
 }

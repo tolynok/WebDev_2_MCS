@@ -1,0 +1,31 @@
+@import url(reset.css);
+
+@font-face {
+	src: url(../fonts/Arial.ttf);
+	font-family: 'Arial';
+	font-weight: normal;
+}
+
+.header {
+}
+
+.header-container {
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+	margin: 50px;
+}
+
+.menu {
+	display: inline-block;
+	float: right;
+	margin-right: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.menu a{
+	margin-right: 25px;
+}

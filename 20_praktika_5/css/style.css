@@ -53,9 +53,13 @@
 	margin-left: 20px;
 }
 
+.main {
+	margin: 0 auto;
+}
+
 .main-container {
-	margin-left: 20px;
 	font-size: 0;
+	text-align: center;
 }
 
 .card {
@@ -67,11 +71,13 @@
 	width: 400px;
 	margin-top: 52px;
 	margin-bottom: 52px;
-	margin-left: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .card-item {
 	font-size: 20px;
+	text-align: left;
 }
 
 .card-item_heading {

@@ -30,6 +30,10 @@
 	color: white;
 }	
 
+.maincontent-container {
+	margin: 0 auto;
+}
+
 .maincontent-container__slider {
 	height: 1080px;
 	background-image: url(../img/slider.png);
