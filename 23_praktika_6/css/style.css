@@ -1,0 +1,22 @@
+@import url(reset.css);
+
+@font-face {
+	src: url(../fonts/Arial.ttf);
+	font-family: 'Arial';
+	font-weight: normal;
+}
+
+.header-container {
+	height: 140px;
+	position: fixed;
+	top: 0;
+	background-color: white;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.menu-container {
+	display: inline-block;
+}

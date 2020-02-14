@@ -6,6 +6,10 @@
 	font-weight: normal;
 }
 
+.page {
+	margin: auto;
+}
+
 .header-container {
 	height: 200px;
 	background-color: #E5E000;
