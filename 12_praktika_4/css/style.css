@@ -7,12 +7,13 @@
 }
 
 .page {
-	margin: auto;
 }
 
 .header-container {
 	height: 200px;
+	width: 1440px;
 	background-color: #E5E000;
+	margin: auto;
 }
 
 .header-container__name {
@@ -31,18 +32,22 @@
 }	
 
 .maincontent-container {
-	margin: 0 auto;
+	margin: auto;
 }
 
 .maincontent-container__slider {
 	height: 1080px;
+	width: 1440px;
 	background-image: url(../img/slider.png);
 	background-repeat: no-repeat;
+	margin: auto;
 }
 
 .maincontent-container__menu {
 	height: 100px;
+	width: 1440px;
 	background-color: #E5E000;
+	margin: auto;
 }
 
 .maincontent-container__menu__items {
@@ -71,9 +76,10 @@
 }
 
 .maincontent-container__text {
-	margin-top: 110px;
-	margin-bottom: 110px;
-	margin-left: 80px;
+	width: 1440px;
+	padding-top: 110px;
+	padding-bottom: 110px;
+	margin: auto;
 }
 
 .maincontent-container__text p {
@@ -83,11 +89,14 @@
 	font-size: 50px;
 	line-height: 57px;
 	color: black;
+	margin-left: 80px;
 }
 
 .footer-container {
 	height: 200px;
+	width: 1440px;
 	background-color: #E5E000;
+	margin: auto;
 }
 
 .footer-container__logo {
